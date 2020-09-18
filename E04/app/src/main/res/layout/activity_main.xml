@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/firstname"
+        android:layout_width="210dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/firstname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="210dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/lastname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jobtitle"
+        android:layout_width="210dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/jobtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/employeeInfoTextView"
+        android:layout_width="406dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/employeeInfoTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/jobtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="192dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/employee1" />
+
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/firstTextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="numberClicked" />
+
+    <TextView
+        android:id="@+id/twoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="@string/twoTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/firstTextView"
+        app:layout_constraintStart_toEndOf="@+id/firstTextView"
+        android:onClick="numberClicked" />
+
+    <TextView
+        android:id="@+id/threeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/threeTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/twoTextView"
+        app:layout_constraintEnd_toStartOf="@+id/fourTextView"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toEndOf="@+id/firstTextView"
+        android:onClick="numberClicked" />
+
+    <TextView
+        android:id="@+id/fourTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:text="@string/fourTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/threeTextView"
+        app:layout_constraintEnd_toStartOf="@+id/fiveTextView"
+        android:onClick="numberClicked" />
+
+    <TextView
+        android:id="@+id/fiveTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:text="@string/fiveTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/fourTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="numberClicked" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

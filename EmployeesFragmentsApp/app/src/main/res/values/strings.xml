@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EmployeesFragmentsApp</string>
+    <string name="employeeText">Phasellus convallis, nisl quis cursus ullamcorper, ligula nulla hendrerit odio, eu porta mi dui ac neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec non semper est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed pellentesque ullamcorper est sit amet bibendum. Curabitur finibus ipsum augue, nec viverra ante congue et. Nullam eros risus, efficitur nec porta id, porttitor et augue. Sed imperdiet, sem vel vestibulum viverra, turpis magna pharetra est, id luctus nisi sem sed felis. Aenean ut fermentum tortor. Sed tristique volutpat luctus. Sed congue, ligula id pharetra imperdiet, neque ligula iaculis diam, eu placerat risus turpis ac mi. Nunc auctor tincidunt velit, sed egestas risus mattis id.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

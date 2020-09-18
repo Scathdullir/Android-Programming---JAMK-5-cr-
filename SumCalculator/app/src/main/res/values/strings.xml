@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SumCalculator</string>
+    <string name="textappname">Sum Calculator</string>
+    <string name="textone">1</string>
+    <string name="texttwo">2</string>
+    <string name="textthree">3</string>
+    <string name="textfour">4</string>
+    <string name="textfive">5</string>
+    <string name="textsix">6</string>
+    <string name="textseven">7</string>
+    <string name="texteight">8</string>
+    <string name="textnine">9</string>
+    <string name="textzero">0</string>
+    <string name="textminus">-</string>
+    <string name="textplus">+</string>
+    <string name="textequal">=</string>
+    <string name="texterase">C</string>
+    <string name="textmultiply">*</string>
+</resources>

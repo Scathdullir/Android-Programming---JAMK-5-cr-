@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BuildUIWithLayoutEditor1</string>
+    <string name="haveanice_txt">Have a Nice Day!</string>
+    <string name="topleft_txt">TopLeft</string>
+    <string name="topright_txt">TopRight</string>
+    <string name="bottomleft_txt">BottomLeft</string>
+    <string name="bottomright_txt">BottomRight</string>
+</resources>
